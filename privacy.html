@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="eu">
+<head>
+  <!-- METADATOS Y TÍTULO -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pribatutasuna</title>
+
+  <!-- ICONO + ESTILOS -->
+  <link rel="icon" href="irudiak/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ENLACE DE SALTO A CONTENIDO -->
+  <a class="skip-link" href="#main">Edukiraino joan</a>
+
+  <!-- CABECERA CON LOGO Y ENLACE DE VUELTA -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Hasiera">
+        <img src="irudiak/logo.svg" alt="Innovatech Solutions" width="196" height="48">
+      </a>
+      <nav class="site-nav" aria-label="Nabigazioa">
+        <ul class="menu"><li><a href="index.html">Hasiera</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL: POLÍTICA DE PRIVACIDAD (DEMO) -->
+  <main id="main" class="section container">
+    <h1>Pribatutasun politika (demo)</h1>
+    <p>Adibide akademikoa da. Ez da datu pertsonalik biltzen; formularioa simulatua da.</p>
+
+    <!-- QUÉ DATOS SE TRATAN (EN ESTE DEMO) -->
+    <h2>Datuak</h2>
+    <ul>
+      <li>Ez da jarraipen-cookie-rik gordetzen.</li>
+      <li>Ez dira formularioak prozesatzen.</li>
+    </ul>
+
+    <!-- CONTACTO DE PRIVACIDAD -->
+    <h2>Harremana</h2>
+    <p><a href="mailto:privacy@innovatechsolutions.com">privacy@innovatechsolutions.com</a></p>
+  </main>
+
+  <!-- PIE -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="urtea"></span> Innovatech Solutions</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT: AÑO DINÁMICO -->
+  <script>document.getElementById('urtea').textContent = new Date().getFullYear();</script>
+</body>
+</html>

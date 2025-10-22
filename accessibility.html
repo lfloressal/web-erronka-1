@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="eu">
+<head>
+  <!-- METADATOS Y TÍTULO -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Irisgarritasuna</title>
+
+  <!-- ICONO + ESTILOS -->
+  <link rel="icon" href="irudiak/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ENLACE DE SALTO A CONTENIDO -->
+  <a class="skip-link" href="#main">Edukiraino joan</a>
+
+  <!-- CABECERA CON LOGO Y ENLACE DE VUELTA -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Hasiera">
+        <img src="irudiak/logo.svg" alt="Innovatech Solutions" width="196" height="48">
+      </a>
+      <nav class="site-nav" aria-label="Nabigazioa">
+        <ul class="menu"><li><a href="index.html">Hasiera</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL: POLÍTICA/NOTAS DE ACCESIBILIDAD -->
+  <main id="main" class="section container">
+    <h1>Irisgarritasuna</h1>
+    <p>Gune honek WCAG 2.1 AA printzipioak kontuan hartzen ditu: hautaera, ikusgarritasuna, ulergarritasuna eta sendoa.</p>
+
+    <!-- LISTA DE MEDIDAS -->
+    <ul>
+      <li>Skip-link, <code>:focus-visible</code> eta ARIA gutxienekoak.</li>
+      <li>Irudietan ordezko testua.</li>
+      <li>Kontraste egokia eta tamaina eskalagarria.</li>
+    </ul>
+
+    <!-- CONTACTO PARA INCIDENCIAS -->
+    <p>Arazoak jakinarazteko: <a href="mailto:access@innovatechsolutions.com">access@innovatechsolutions.com</a></p>
+  </main>
+
+  <!-- PIE -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="urtea"></span> Innovatech Solutions</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT: AÑO DINÁMICO -->
+  <script>document.getElementById('urtea').textContent = new Date().getFullYear();</script>
+</body>
+</html>

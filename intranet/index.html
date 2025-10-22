@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="eu">
+<head>
+  <!-- METADATOS BÁSICOS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- TÍTULO E ICONO -->
+  <title>Intraneta · Innovatech Solutions</title>
+  <link rel="icon" href="../irudiak/favicon.svg" type="image/svg+xml">
+
+  <!-- ESTILOS COMPARTIDOS -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!-- ENLACE DE SALTO A CONTENIDO -->
+  <a class="skip-link" href="#main">Edukiraino joan</a>
+
+  <!-- CABECERA SIMPLE (VOLVER A LA WEB CORPORATIVA) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Hasiera">
+        <img src="../irudiak/logo.svg" alt="Innovatech Solutions" width="196" height="48">
+      </a>
+
+      <!-- NAV DE INTRANET (BREVE) -->
+      <nav class="site-nav" aria-label="Nabigazioa">
+        <ul class="menu">
+          <li><a href="../index.html">Web korporatiboa</a></li>
+          <li><a href="#">Intraneta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL DE INTRANET -->
+  <main id="main">
+    <!-- HERO DE INTRANET -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Intraneta</h1>
+          <p class="muted">Barne informazioa</p>
+        </div>
+        <figure class="hero-media"><img src="../irudiak/intranet-hero.jpg" alt="Intranetako irudia"></figure>
+      </div>
+    </section>
+
+    <!-- AVISOS Y DOCUMENTACIÓN INTERNA -->
+    <section class="section container">
+      <!-- LISTA DE ANUNCIOS -->
+      <h2>Iragarkiak</h2>
+      <ul class="timeline">
+        <li>Asteko bilera: ostirala 12:00</li>
+        <li>FTP kredentzialak eguneratu dira</li>
+        <li>Babeskopia plana aktibatuta</li>
+      </ul>
+
+      <!-- TABLA DE DOCUMENTOS -->
+      <h2>Dokumentuak</h2>
+      <table class="table" aria-label="Dokumentuak">
+        <thead><tr><th>Izena</th><th>Mota</th><th>Sarbidea</th></tr></thead>
+        <tbody>
+          <tr><td>Gida: FTP erabilera</td><td>PDF</td><td>Langileak</td></tr>
+          <tr><td>DNS/DHCP eskema</td><td>PNG</td><td>IT taldea</td></tr>
+          <tr><td>Segurtasun politika</td><td>DOCX</td><td>Guztiak</td></tr>
+        </tbody>
+      </table>
+
+      <!-- AVISO DE DEMO -->
+      <div class="alert warn">Sarrera simulatua (frogapena)</div>
+    </section>
+  </main>
+
+  <!-- PIE -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="urtea"></span> Innovatech Solutions</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT: AÑO DINÁMICO -->
+  <script>document.getElementById('urtea').textContent = new Date().getFullYear();</script>
+</body>
+</html>

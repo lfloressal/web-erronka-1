@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="eu">
+<head>
+  <!-- METADATOS BÁSICOS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO MINIMAL -->
+  <meta name="description" content="Innovatech Solutions · Irtenbide digitalak">
+  <title>Innovatech Solutions · Hasiera</title>
+
+  <!-- ICONO Y ESTILOS GLOBALES -->
+  <link rel="icon" href="irudiak/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ENLACE DE SALTO A CONTENIDO (ACCESIBILIDAD) -->
+  <a class="skip-link" href="#edukia">Edukiraino joan</a>
+
+  <!-- CABECERA FIJA CON LOGO Y MENÚ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- LOGO / ENLACE A INICIO -->
+      <a class="brand" href="#" aria-label="Hasiera">
+        <img src="irudiak/logo.svg" alt="Innovatech Solutions" width="196" height="48">
+      </a>
+
+      <!-- NAVEGACIÓN PRINCIPAL -->
+      <nav class="site-nav" aria-label="Nabigazioa">
+        <!-- BOTÓN PARA ABRIR/CERRAR MENÚ EN MÓVIL -->
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu" id="navToggle">Menua</button>
+
+        <!-- LISTA DE ENLACES DEL MENÚ -->
+        <ul id="menu" class="menu">
+          <li><a href="#hasiera">Hasiera</a></li>
+          <li><a href="#zerbitzuak">Zerbitzuak</a></li>
+          <li><a href="#kasuak">Kasuak</a></li>
+          <li><a href="#taldea">Taldea</a></li>
+          <li><a href="#prezioak">Prezioak</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="accessibility.html">Irisgarritasuna</a></li>
+          <li><a href="privacy.html">Pribatutasuna</a></li>
+          <li><a href="intranet/index.html">Intraneta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main id="edukia">
+    <!-- SECCIÓN HERO (TÍTULO + DESCRIPCIÓN + IMAGEN) -->
+    <section id="hasiera" class="hero">
+      <div class="container hero-inner">
+        <!-- TEXTO DEL HERO -->
+        <div class="hero-text">
+          <h1>Innovatech Solutions</h1>
+          <p class="lead">Irtenbide digitalak</p>
+          <p class="muted">ETEentzako sare-azpiegitura, web-zerbitzuak eta presentzia digitala.</p>
+
+          <!-- INSIGNIAS/TECNOLOGÍAS -->
+          <div class="badges" aria-label="Teknologiak">
+            <span class="badge">Apache2</span>
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">AD DS</span>
+            <span class="badge">DNS/DHCP</span>
+            <span class="badge">hosting</span>
+            <span class="badge">responsive</span>
+          </div>
+
+          <!-- CTA DEL HERO -->
+          <p><a class="btn" href="#zerbitzuak">Ikusi zerbitzuak</a></p>
+
+          <!-- AVISO SIMPLE -->
+          <div class="alert ok">WCAG printzipioak kontuan hartuta</div>
+        </div>
+
+        <!-- IMAGEN DEL HERO -->
+        <figure class="hero-media">
+          <img src="irudiak/hero.jpg" alt="Enpresaren irudi nagusia" width="1600" height="900">
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: SERVICIOS -->
+    <section id="zerbitzuak" class="section">
+      <div class="container">
+        <h2>Zerbitzuak</h2>
+        <!-- TARJETAS DE SERVICIOS -->
+        <ul class="cards">
+          <li class="card"><h3>Sare-azpiegitura</h3><p>Router, switch, zerbitzari eta LAN diseinua. DHCP, DNS eta segurtasuna.</p></li>
+          <li class="card"><h3>Web garapena</h3><p>HTML semantikoa, CSS arina eta erabilerraztasuna. Diseinu responsive.</p></li>
+          <li class="card"><h3>Hosting & mantentzea</h3><p>Apache2 VirtualHosts eta edukien kudeaketa FTP bidez.</p></li>
+          <li class="card"><h3>Kontsulta</h3><p>Beharren analisia, optimizazioa eta segurtasun neurriak.</p></li>
+          <li class="card"><h3>Prestakuntza</h3><p>Langileentzako tailerrak: erabilera seguruak eta oinarrizko administrazioa.</p></li>
+          <li class="card"><h3>Monitorizazioa</h3><p>Zerbitzuen egoera eta errendimendua neurtzeko adierazleak.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: CASOS / PROYECTOS -->
+    <section id="kasuak" class="section">
+      <div class="container">
+        <h2>Kasu arrakastatsuak</h2>
+
+        <!-- REJILLA DE CASOS -->
+        <div class="grid cols-3">
+          <article class="card"><h3>PYME industriala</h3><p>AD DS + DNS + DHCP ezarpena eta intranet segurua. %35eko produktibitate hobekuntza.</p></article>
+          <article class="card"><h3>Saltoki-katea</h3><p>Apache2 + VirtualHosts eta FTP bidezko edukien kudeaketa. Webgune arina eta fidagarria.</p></article>
+          <article class="card"><h3>Kontsulta bulegoa</h3><p>Analitika, SEO oinarrizkoa eta formularioen hardening simulatuak.</p></article>
+        </div>
+
+        <!-- LÍNEA DE TIEMPO SIMPLE -->
+        <h3>Proiektuaren mugarriak</h3>
+        <ol class="timeline">
+          <li>Beharren analisia</li>
+          <li>Diseinua (sarea, DNS, web)</li>
+          <li>Inplementazioa</li>
+          <li>Probak</li>
+          <li>Entrega</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: EQUIPO -->
+    <section id="taldea" class="section">
+      <div class="container">
+        <h2>Taldea</h2>
+        <!-- TARJETAS DEL EQUIPO -->
+        <div class="grid cols-3">
+          <div class="card"><h3>Koordinatzailea</h3><p>Plangintza eta kalitatea. Harremana: <a href="mailto:coord@innovatechsolutions.com">coord@innovatechsolutions.com</a></p></div>
+          <div class="card"><h3>Materialaren arduraduna</h3><p>Hardware/software inbentarioa eta eskuragarritasuna.</p></div>
+          <div class="card"><h3>Idazkaria</h3><p>Dokumentazioa, aktak eta laburpenak.</p></div>
+          <div class="card"><h3>Komunikazioa</h3><p>Barne-informazioa eta bileren jarraipena.</p></div>
+          <div class="card"><h3>Web AWEB</h3><p>HTML/CSS, irisgarritasuna eta diseinua.</p></div>
+          <div class="card"><h3>APIN</h3><p>Txostenak, kalkulu-orriak eta aurkezpenak.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: PRECIOS / PLANES -->
+    <section id="prezioak" class="section">
+      <div class="container">
+        <h2>Prezioak</h2>
+
+        <!-- TARJETAS DE PRECIOS -->
+        <div class="pricing">
+          <div class="price-item">
+            <h3>Oinarrizkoa</h3><p class="price">€299</p>
+            <ul><li>Web orri bakarra</li><li>Kontaktua simulatu</li><li>Responsive</li></ul>
+            <p class="cta"><a class="btn" href="#harremana">Eskatu</a></p>
+          </div>
+          <div class="price-item">
+            <h3>Estandarra</h3><p class="price">€599</p>
+            <ul><li>3 sekzio + kasu arrakastatsuak</li><li>SEO oinarrizkoa</li><li>Prestakuntza 1 ordu</li></ul>
+            <p class="cta"><a class="btn" href="#harremana">Eskatu</a></p>
+          </div>
+          <div class="price-item">
+            <h3>Aurreratua</h3><p class="price">€999</p>
+            <ul><li>Intranet estatikoa</li><li>Monitorizazio oinarrizkoa</li><li>Dokumentazioa</li></ul>
+            <p class="cta"><a class="btn" href="#harremana">Eskatu</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: PREGUNTAS FRECUENTES -->
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>FAQ</h2>
+
+        <!-- BLOQUES DETALLABLES -->
+        <div class="faq">
+          <details><summary>Formularioa benetakoa da?</summary><p>**Simulatua** da: ez du daturik bidaltzen; irisgarritasunarekin maketatuta.</p></details>
+          <details><summary>Nola egokitzen da marka?</summary><p>Koloreak eta logoa `:root` aldagaiekin eta `irudiak/` fitxategiekin.</p></details>
+          <details><summary>VirtualHosts nola?</summary><p>Apache2: `www.innovatechsolutions.com` eta `intranet.innovatechsolutions.com`.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO (FORMULARIO + TABLA) -->
+    <section id="harremana" class="section">
+      <div class="container">
+        <h2>Harremana</h2>
+
+        <!-- FORMULARIO SIMULADO (NO ENVÍA DATOS) -->
+        <form class="contact-form" action="#" method="post" aria-describedby="contact-help">
+          <p id="contact-help" class="muted">Formulario **simulatua** da.</p>
+
+          <!-- CAMPO: NOMBRE -->
+          <div class="form-row">
+            <label for="name">Izena</label>
+            <input id="name" name="name" type="text" placeholder="Zure izena" required>
+          </div>
+
+          <!-- CAMPO: EMAIL -->
+          <div class="form-row">
+            <label for="email">Emaila</label>
+            <input id="email" name="email" type="email" placeholder="adibidea@posta.eus" required>
+          </div>
+
+          <!-- CAMPO: MENSAJE -->
+          <div class="form-row">
+            <label for="message">Mezua</label>
+            <textarea id="message" name="message" rows="5" placeholder="Idatzi zure mezua..." required></textarea>
+          </div>
+
+          <!-- BOTÓN ENVIAR -->
+          <button class="btn" type="submit">Bidali</button>
+        </form>
+
+        <!-- DATOS DE CONTACTO EN TABLA -->
+        <h3>Kontaktua taulan</h3>
+        <table class="table" aria-label="Kontaktua">
+          <thead><tr><th>Atala</th><th>Helbidea</th><th>Ordutegia</th></tr></thead>
+          <tbody>
+            <tr><td>Laguntza</td><td><a href="mailto:support@innovatechsolutions.com">support@innovatechsolutions.com</a></td><td>09:00–17:00</td></tr>
+            <tr><td>Salmentak</td><td><a href="mailto:sales@innovatechsolutions.com">sales@innovatechsolutions.com</a></td><td>09:00–18:00</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="urtea"></span> Innovatech Solutions</p>
+
+      <!-- ENLACES SOCIALES -->
+      <ul class="social">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="mailto:info@innovatechsolutions.com">info@innovatechsolutions.com</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- SCRIPT CORTO: MENÚ MÓVIL + AÑO -->
+  <script>
+    // Toggle del menú en móviles
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('menu');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      menu.classList.toggle('open');
+    });
+
+    // Año dinámico en el pie
+    document.getElementById('urtea').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
